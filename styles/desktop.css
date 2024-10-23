@@ -8,6 +8,9 @@ h2 {
   max-width: 1200px;
   min-width: 600px;
 }
+a {
+  color: #FFFFFF;
+}
 header {
   border-radius: 8px;
   display: flex;
@@ -16,11 +19,8 @@ header {
 header h1 a:hover {
   text-decoration: underline;
 }
-#logo {
-  padding: 10px;
-}
 nav li a:hover {
-  color: #7e8aa2;
+  color: #FFFFFF;
 }
 nav ul {
   padding: 10px;
@@ -29,7 +29,7 @@ nav ul {
 }
 nav ul li {
   border: none;
-  border-left: 1px solid #7e8aa2;
+  border-left: 1px solid #FFFFFF;
 }
 nav li:first-child {
   border-left: none;
@@ -77,3 +77,15 @@ tr:nth-child(odd) {
   background-color: #ccc;
 }
 /* Form Styling Needs Adding */
+.submitcontainer {
+  margin: auto;
+}
+input{
+  margin-top: 10px;
+}
+select{
+  margin-top: 5px;
+}
+textarea{
+  margin-top: 20px;
+}
